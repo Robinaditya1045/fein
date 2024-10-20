@@ -11,7 +11,8 @@
     "sepolia:deploy": "npx hardhat run scripts/deploy.js --network sepolia",
     "sepolia:redeploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network sepolia",
     "local:redeploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network localhost",
-    "ganache:redeploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network ganache"
+    "ganache:redeploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network ganache",
+    "base:redeploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network base_sepolia"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
