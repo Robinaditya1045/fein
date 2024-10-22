@@ -2,7 +2,6 @@
 
 import TokenCard from '@/components/cards/TokenCard';
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
 const Page = () => {
   interface Token {
@@ -20,8 +19,10 @@ const Page = () => {
   useEffect(() => {
     const fetchTokens = async () => {
       try {
-        const response = await axios.get('/api/getMintedTokens');
-        setTokens(response.data.mintedTokens);
+        const response = await fetch('/api/getMintedTokens');
+        const data = await response.json();
+        console.log(data)
+        setTokens(data.mintedTokens);
       } catch (error) {
         console.error('Error fetching minted tokens:', error);
       }
