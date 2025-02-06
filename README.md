@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to **Sound-Stake**, an Music Staking Platform aims to address these challenges by introducing a decentralized, blockchain-based solution that enables direct interaction between artists and fans. It leverages music staking as a way for fans to invest in music projects and share in the financial success of the artists they support. 
+Welcome to  **Sound-Stake**, an Music Staking Platform aims to address these challenges by introducing a decentralized, blockchain-based solution that enables direct interaction between artists and fans. It leverages music staking as a way for fans to invest in music projects and share in the financial success of the artists they support. 
 . By leveraging **BASE blockchain technology** Sound-Stake rewards fans/users with tokens.
 
 
